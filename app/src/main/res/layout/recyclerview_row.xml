@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@android:drawable/bottom_bar"
+    android:orientation="horizontal"
+    android:layout_margin="0dp">
+
+    <TextView
+        android:id="@+id/textSensorsAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="18dp"
+        android:paddingLeft="20dp"
+        android:text="@android:string/defaultMsisdnAlphaTag"
+        android:textSize="20sp"
+        android:background="@drawable/background_border"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry" />
+
+
+</LinearLayout>
